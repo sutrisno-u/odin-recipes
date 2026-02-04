@@ -1,34 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, "Trebuchet MS", Tahoma, sans-serif;
+    padding: 30px 40px;
+    background-color: powderblue
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: inherit;
+}
+
+h1   {
+    font-size: 2rem;
+    padding: 20px 180px;
+    text-decoration-line: underline;
+    color: rgb(52, 29, 116);
+    text-align: center;
 }
 
 a {
     color: rgba(5, 5, 241, 0.877)
-}
-/*
-*    {
-    outline: 1px solid red;    
-}
-*/
-html {
-    font-family: Arial, "Trebuchet MS", Tahoma, sans-serif;
-    padding: 30px 40px 30px;
-    background-color: powderblue
-}
-
-h1   {
-    font-family: Arial, "Trebuchet MS", Tahoma, sans-serif;
-    font-size: 32px;
-    padding: 20px 180px;
-    text-decoration-line: underline;
-    color: rgb(52, 29, 116);
 }
    
 li {
     padding: 5px 5px;
     margin: 5px;
     color: rgb(45, 45, 236);
-
 }
+
+.cheeseburger {
+    background-color: powderblue; 
+}
+
+.image-container { 
+     float: right;
+     margin-right: 20px;
+}
+
+.link {
+    font-size: 12px;
+    text-align: right;   
+}
+
+h3 {
+    margin: 20px 20px;
+    text-decoration: underline;
+    color: rgb(52, 29, 116);
+}
+
+p {
+    color: rgb(52, 29, 116);
+}
+
